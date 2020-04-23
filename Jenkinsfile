@@ -21,11 +21,11 @@ pipeline {
         }
         stage("Build classs") {
             when {
-               branch 'class'
+               branch 'classs'
 
             }
             steps {
-                echo "Building on class"
+                echo "Building on classs"
             }
         }
     }
