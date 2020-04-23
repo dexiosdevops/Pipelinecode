@@ -19,7 +19,7 @@ pipeline {
                 echo "Building on dev"
             }
         }
-        stage("Build Class") {
+        stage("Build classs") {
             when {
                branch 'class'
 
