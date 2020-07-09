@@ -26,6 +26,7 @@ pipeline {
             }
             steps {
                 echo "Building on classs"
+                echo "Building on classsess"
             }
         }
     }
