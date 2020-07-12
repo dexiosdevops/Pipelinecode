@@ -28,6 +28,7 @@ pipeline {
                 echo "Building on classs"
                 echo "Building on classsess"
                 echo "nothing is changed"
+                echo "something is changed"
             }
         }
     }
