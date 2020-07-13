@@ -22,7 +22,7 @@ pipeline {
                 git config user.name 'viswa1145'
                 git config user.email 'viswa1145@gmail.com'
                 git config --local credential.helper "!f() { echo username=$Username; echo password=$Password; }; f"
-                git push origin ${params.Branch_Name}
+                git push origin "${params.Branch_Name}"
                 ''')
                     
                 }
