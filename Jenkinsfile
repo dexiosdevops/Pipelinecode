@@ -15,7 +15,6 @@ pipeline {
                 sh "git status"
                 sh "git branch -a"
                 sh "git add ."
-                sh 'git commit -m "nothing is change"'
                 sh "git pull"
                 sh "git cherry-pick ${params.Commit_ID}"
                 withCredentials([usernamePassword(credentialsId: 'b6e48ca7-bf5b-453d-bb52-d7bd41a594e9', usernameVariable: 'Username', passwordVariable: 'Password')]){    
