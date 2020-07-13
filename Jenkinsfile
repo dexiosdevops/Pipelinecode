@@ -29,6 +29,7 @@ pipeline {
                 echo "Building on classsess"
                 echo "nothing is changed"
                 echo "something is changed"
+                echo "this is from dev-qq"
             }
         }
     }
