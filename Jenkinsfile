@@ -31,6 +31,7 @@ pipeline {
                 echo "nothing is changed"
                 echo "something is changed"
                 echo "this is from dev-qq"
+                echo "this is changed"
             }
         }
     }
