@@ -17,6 +17,7 @@ pipeline {
             }
             steps {
                 echo "Building on 'dev"
+                echo "nothing has been changed"
             }
         }
         stage("Build classs") {
